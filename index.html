@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Photographe | Vision & Lumière</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;1,300&family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased">
+    <!-- Header / Nav -->
+    <nav class="fixed top-0 w-full z-50 mix-blend-difference px-6 py-8 md:px-12 flex justify-between items-center text-white">
+        <a href="#" class="text-2xl font-light tracking-[0.2em] uppercase">M.T <span class="text-[10px] block tracking-widest opacity-60">Visuals</span></a>
+        <div class="hidden md:flex space-x-12 text-[10px] uppercase tracking-[0.3em]">
+            <a href="#gallery" class="nav-link">Galerie</a>
+            <a href="#about" class="nav-link">Vision</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="md:hidden text-xs uppercase tracking-widest">Menu</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="h-screen flex items-center justify-center relative overflow-hidden">
+        <div class="absolute inset-0 opacity-40">
+            <!-- Background video or large image placeholder -->
+            <div class="w-full h-full bg-[url('https://images.unsplash.com/photo-1493863641943-9b68992a8d07?auto=format&fit=crop&q=80')] bg-cover bg-center"></div>
+        </div>
+        <div class="relative text-center z-10 px-4">
+            <h1 class="text-5xl md:text-8xl font-light serif italic mb-4 reveal">Capturer l'éphémère</h1>
+            <p class="text-xs md:text-sm uppercase tracking-[0.5em] font-light opacity-70 reveal delay-200">Photographie de Portrait & Mode</p>
+        </div>
+        <div class="absolute bottom-12 left-1/2 -translate-x-1/2 animate-bounce opacity-30">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M7 13l5 5 5-5M7 6l5 5 5-5"/></svg>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section id="gallery" class="px-4 md:px-12 py-32 bg-black">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
+            <!-- Photo Item 1 (9:16) -->
+            <div class="reveal">
+                <div class="photo-container group">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=1000" alt="Portrait 1">
+                    <div class="overlay">
+                        <p class="text-[10px] uppercase tracking-widest text-gray-400 mb-2">Série 01</p>
+                        <h3 class="serif text-2xl italic">Lumière d'Hiver</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Photo Item 2 (9:16) -->
+            <div class="reveal delay-150">
+                <div class="photo-container group">
+                    <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&q=80&w=1000" alt="Mode 1">
+                    <div class="overlay">
+                        <p class="text-[10px] uppercase tracking-widest text-gray-400 mb-2">Série 02</p>
+                        <h3 class="serif text-2xl italic">Structure Urbaine</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Photo Item 3 (9:16) -->
+            <div class="reveal delay-300">
+                <div class="photo-container group">
+                    <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&q=80&w=1000" alt="Portrait 2">
+                    <div class="overlay">
+                        <p class="text-[10px] uppercase tracking-widest text-gray-400 mb-2">Série 03</p>
+                        <h3 class="serif text-2xl italic">Regard Perdu</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Photo Item 4 (9:16) -->
+            <div class="reveal">
+                <div class="photo-container group">
+                    <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&q=80&w=1000" alt="Portrait 3">
+                    <div class="overlay">
+                        <p class="text-[10px] uppercase tracking-widest text-gray-400 mb-2">Série 04</p>
+                        <h3 class="serif text-2xl italic">Silhouettes</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Photo Item 5 (9:16) -->
+            <div class="reveal delay-150">
+                <div class="photo-container group">
+                    <img src="https://images.unsplash.com/photo-1496440737103-cd596325d314?auto=format&fit=crop&q=80&w=1000" alt="Portrait 4">
+                    <div class="overlay">
+                        <p class="text-[10px] uppercase tracking-widest text-gray-400 mb-2">Série 05</p>
+                        <h3 class="serif text-2xl italic">Grain de Peau</h3>
+                    </div>
+                </div>
+            </div><!-- Photo Item 6 (9:16) -->
+            <div class="reveal delay-300">
+                <div class="photo-container group">
+                    <img src="https://images.unsplash.com/photo-1464863979621-258859e62245?auto=format&fit=crop&q=80&w=1000" alt="Portrait 5">
+                    <div class="overlay">
+                        <p class="text-[10px] uppercase tracking-widest text-gray-400 mb-2">Série 06</p>
+                        <h3 class="serif text-2xl italic">Nocturne</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision / About -->
+    <section id="about" class="py-48 px-6 md:px-12 flex flex-col items-center text-center reveal">
+        <span class="text-xs uppercase tracking-[0.4em] text-[#c4a484] mb-8">La Philosophie</span>
+        <h2 class="text-3xl md:text-5xl serif italic max-w-3xl leading-relaxed"> "Une photographie n'est pas un accident, c'est une intention. Je cherche le moment où la lumière rencontre l'âme." </h2>
+        <div class="mt-16 w-12 h-px bg-white/20"></div>
+        <p class="mt-16 max-w-lg text-sm font-light text-gray-400 leading-loose"> Basé à Paris, je collabore avec des marques et des particuliers pour créer des images qui racontent une histoire sans dire un mot. Spécialisé dans le portrait minimaliste et la photographie éditoriale. </p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="pb-32 px-6 md:px-12 reveal">
+        <div class="border-t border-white/10 pt-32 flex flex-col md:flex-row justify-between gap-12">
+            <div>
+                <h2 class="text-4xl serif italic mb-8">Collaborons.</h2>
+                <div class="space-y-4 text-sm font-light">
+                    <p class="hover:text-[#c4a484] transition-colors"><a href="mailto:contact@mt-visuals.com">contact@mt-visuals.com</a></p>
+                    <p>+33 (0) 6 00 00 00 00</p>
+                </div>
+            </div>
+            <div class="flex flex-col items-end justify-end space-y-4 text-[10px] uppercase tracking-[0.3em]">
+                <a href="#" class="hover:text-[#c4a484]">Instagram</a>
+                <a href="#" class="hover:text-[#c4a484]">LinkedIn</a>
+                <a href="#" class="hover:text-[#c4a484]">Behance</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-12 text-center text-[8px] uppercase tracking-[0.5em] text-gray-600">
+        &copy; 2024 M.T Visuals . All rights reserved
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
