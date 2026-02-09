@@ -163,6 +163,13 @@
         &copy; 2024 David Egbakou. Tous droits réservés.
     </footer>
 
+    <!-- Lightbox Modal -->
+    <div id="lightbox-modal" class="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50 hidden">
+        <button id="lightbox-close" class="absolute top-4 right-4 text-white text-3xl">&times;</button>
+        <button id="lightbox-prev" class="absolute left-4 text-white text-5xl opacity-75 hover:opacity-100">&lt;</button>
+        <img src="" alt="Full size image" id="lightbox-img" class="max-w-[90vw] max-h-[90vh] object-contain">
+        <button id="lightbox-next" class="absolute right-4 text-white text-5xl opacity-75 hover:opacity-100">&gt;</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
